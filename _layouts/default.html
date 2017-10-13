@@ -3,19 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>Rick Chiarelli's Alcohol-Free New Year's Eve</title>
+  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
   <h1>Rick Chiarelli's Alcohol Free New Year's Eve</h1>
-  <nav>
-    <ul>
-      <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-      <li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  {% include nav.html navclass='nav-top'%}
 </header>
 {{content}}
+
+<footer>
+  {% include nav.html navclass='nav-bottom'%}
+  <p>Rick Chiarelli's Alcohol Free New Year's Eve</p>
+</footer>
 
 </body>
 </html>

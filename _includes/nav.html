@@ -2,7 +2,7 @@
   <ul class="nav {{include.navclass}}">
     <li class="horizontal-space"><a href="{{site.baseurl}}/index.html" class="{% if page.url =='/'%}current{% endif %}">Home</a></li>
     <li class="horizontal-space"><a href="{{site.baseurl}}/media.html" class="{% if page.url == '/media.html' or page.url == '/photos.html' or page.url =='/videos.html' %}current{% endif %}">Media</a></li>
-    <li class="horizontal-space"><a href="{{site.baseurl}}/volunteer.html" class="{% if page.url =='/volunteer.html'%}current{% endif %}">Volunteer</a></li>
+    <li class="horizontal-space"><a href="{{site.baseurl}}/volunteer.html" class="{% if page.url =='/volunteer.html' or page.url == '/thankyou.html' %}current{% endif %}">Volunteer</a></li>
     <li class="horizontal-space"><a href="{{site.baseurl}}/contact.html" class="{% if page.url =='/contact.html'%}current{% endif %}">Contact</a></li>
   </ul>
 </nav>

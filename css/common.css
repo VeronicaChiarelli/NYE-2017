@@ -7,10 +7,15 @@ html{
 
 a:link {
     text-decoration: none;
+    color: bla;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+a:visited {
+    color: black;
 }
 
 .horizontal-space{
@@ -29,8 +34,8 @@ a:hover {
 }
 
 .current {
-  background-color: #000531;
-  color: #fff;
+  font-weight: bolder;
+  text-shadow: 2px 2px #6d7e96;
 }
 
 .nav {

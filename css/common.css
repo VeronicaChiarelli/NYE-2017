@@ -5,6 +5,14 @@ html{
   font: normal 100%/1.4 Georgia,serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .horizontal-space{
   padding: 0px 15px;
 }

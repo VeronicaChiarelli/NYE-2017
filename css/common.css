@@ -7,7 +7,7 @@ html{
 
 .masthead {
   padding: 1em;
-  background: #000531 url("{{site.baseurl}}/img/header.jpg") center center;
+  background: #000531 url("../img/header.jpg") no-repeat center center;
   background-size: cover;
   color: #fff
 }

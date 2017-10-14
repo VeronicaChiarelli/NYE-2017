@@ -5,6 +5,14 @@ html{
   font: normal 100%/1.4 Georgia,serif;
 }
 
+.horizontal-space{
+  padding: 0px 15px;
+}
+
+.horizontal-space-sub-menus{
+  padding: 0px 5px;
+}
+
 .masthead {
   padding: 1em;
   background: #000531 url("../img/header.jpg") no-repeat center center;
@@ -20,6 +28,7 @@ html{
 .nav {
   margin: 0;
   padding: 0;
+  text-align: center;
 
   list-style-type: none;
 }

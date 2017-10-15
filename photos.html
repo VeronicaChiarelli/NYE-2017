@@ -7,7 +7,7 @@ layout: media
 
 
 {% for photos in site.posts %}
-{% if {{photos.image}} != "volunteers.jpg" %}
+{% if photos.image != "volunteers.jpg" %}
 <center><img src="{{site.baseurl}}/img/{{photos.image}}" alt="no" class="photos"></center>
 {% endif %}
 {%endfor%}

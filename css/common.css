@@ -52,6 +52,8 @@ textarea {
 .contentalign{
   margin-left: 200px;
   margin-right: 200px;
+  text-align: justify;
+  text-shadow: .5px .5px #dce22f;
 }
 
 .photos {
@@ -76,8 +78,15 @@ textarea {
 }
 
 .masthead {
-  padding: 1em;
+  padding: 2em;
   background: #000531 url("../img/header.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff
+}
+
+.sub-masthead {
+  padding: 1em;
+  background: orange;
   background-size: cover;
   color: #fff
 }

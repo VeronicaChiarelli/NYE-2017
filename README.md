@@ -14,7 +14,7 @@ and add a corresponding post to the posts folder
 The videos page (videos.html) displays three embedded YouTube videos.
 
 The volunteers page (volunteer.html) contains a form for volunteers to fill out.
-The information submitted is sent to the organizers email using _________.
+The information submitted is sent to the organizers email using formspree.
 Once the information is submitted, you are brought to the thank you page (thankyou.html)
 which is still under the volunteer tab of the menu.
 

@@ -1,4 +1,2 @@
 baseurl: /NYE-2017
 exclude: ['README.md']
-kramdown:
-  parse_block_html: true

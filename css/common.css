@@ -36,7 +36,7 @@ textarea {
 }
 
 .button {
-  background-color: blue;
+  background-color: orange;
   border: none;
   color: white;
   padding: 7px 20px;
@@ -48,13 +48,10 @@ textarea {
   cursor: pointer;
 }
 
-.divright{
-  text-align: right;
-}
 
 .contentalign{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .photos {

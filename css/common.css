@@ -58,8 +58,6 @@ textarea {
 
 .photos {
     max-width: 60%;
-    height: auto;
-    width: auto\9; /* ie8 */
     display: block;
     flex-shrink: 1;
     min-width: 0;

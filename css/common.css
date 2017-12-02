@@ -36,7 +36,7 @@ textarea {
 }
 
 .button {
-  background-color: orange;
+  background-color: black;
   border: none;
   color: white;
   padding: 7px 20px;
@@ -84,14 +84,14 @@ textarea {
 
 .sub-masthead {
   padding: 1em;
-  background: orange;
+  background: black;
   background-size: cover;
   color: #fff
 }
 
 .current {
   font-weight: bolder;
-  text-shadow: 2px 2px orange;
+  text-shadow: 2px 2px black;
 }
 
 .nav {

@@ -24,19 +24,19 @@ a:visited {
 input {
   -moz-border-radius: 5px;
   border-radius: 5px;
-  border:solid 1px black;
+  border:solid 1px #000000;
   padding:2px;
 }
 
 textarea {
   -moz-border-radius: 5px;
   border-radius: 5px;
-  border:solid 1px black;
+  border:solid 1px #000000;
   padding:2px;
 }
 
 .button {
-  background-color: black;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 7px 20px;
@@ -77,21 +77,21 @@ textarea {
 
 .masthead {
   padding: 2em;
-  background: black url("../img/header.jpg") no-repeat center center;
+  background: #000000 url("../img/header.jpg") no-repeat center center;
   background-size: cover;
   color: #fff
 }
 
 .sub-masthead {
   padding: 1em;
-  background: black;
+  background: #000000;
   background-size: cover;
   color: #fff
 }
 
 .current {
   font-weight: bolder;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #000000;
 }
 
 .nav {

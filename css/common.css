@@ -8,6 +8,13 @@ html{
   background-size: cover;
 }
 
+@media screen and (max-width: 480px) {
+    .nav {
+        background-image: None;
+        background-color: #ffffb5;
+    }
+}
+
 a:link {
     text-decoration: none;
     color: white;
